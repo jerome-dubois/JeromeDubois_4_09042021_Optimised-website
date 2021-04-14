@@ -718,6 +718,16 @@ h3 {
     color: #333333!important;
 }
 
+blockquote {
+    border: none;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight:500;
+    margin:auto;
+    max-width: 570px;
+    color: #575757;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
