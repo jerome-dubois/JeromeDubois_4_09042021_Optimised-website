@@ -44,6 +44,10 @@ a:hover {
     color: #474747!important;
 }
 
+#bloc-8 li {
+    padding: 0.8rem 0 0.8rem;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -96,7 +100,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/optimized/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -289,7 +293,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -710,11 +714,30 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+.subtitle-h2 {
     font-size: 22px;
     line-height: 1.4em;
     max-width: 600px;
     margin: auto;
+    font-weight: 400;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.ps-4 {
+    padding-left: 4rem;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.4em;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
 }
 
 h3 {
