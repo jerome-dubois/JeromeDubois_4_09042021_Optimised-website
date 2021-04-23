@@ -95,10 +95,10 @@ a:hover {
     right: 0;
 }
 
-/* .texture-paper::before {
+.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -683,6 +683,7 @@ a {
 
 p {
     font-size: 14px;
+    font-weight: bold;
 }
 
 .tight-width-whitespace {
