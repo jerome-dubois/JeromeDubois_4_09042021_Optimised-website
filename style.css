@@ -7,6 +7,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ms-auto {
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-around;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -589,7 +601,7 @@ a[data-lightbox]:hover img {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
+    /* position: absolute; */
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -726,6 +738,14 @@ p {
 
 .py-2 {
     padding: 2rem 0;
+}
+
+.px-2 {
+    padding: 0 2rem!important;
+}
+
+.pl-2 {
+    padding-left: 2rem;
 }
 
 .ps-4 {
