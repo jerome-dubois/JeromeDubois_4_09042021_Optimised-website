@@ -54,6 +54,7 @@ a:hover {
 #bloc-8 a {
     font-weight: bold;
     color: #474747!important;
+    font-size: 19px;
 }
 
 #bloc-8 li {
@@ -703,7 +704,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto auto auto auto;
 }
 
@@ -841,6 +842,11 @@ h4 {
 
 .text-white {
     color: #FFFFFF!important;
+    font-size: 19px;
+}
+
+.text-directory-title {
+    font-size: 19px;
 }
 
 .btn-atomic-tangerine {
